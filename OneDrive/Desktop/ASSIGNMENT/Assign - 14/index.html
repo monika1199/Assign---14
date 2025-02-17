@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added to include padding and border in the element's total width and height */
+}
+
+.main {
+    max-width: 1340px; /* Changed width to max-width for responsiveness */
+    margin: 0 auto; /* Removed !important and added margin 0 auto for centering */
+    text-align: center;
+    padding: 20px; /* Added padding for spacing */
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-top: 20px; /* Reduced margin-top for spacing */
+    font-size: 28px; /* Added font-size for better readability */
+}
+
+p{
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    margin-top: 20px; /* Added margin-top for spacing */
+}
+
+.box-1 {
+    overflow: hidden;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box-1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Added border-radius for rounded corners */
+}
+
+.span2 {
+    grid-column-end: span 2;
+}
+
+.span3 {
+    grid-row-end: span 1;
+}
+.box-2 {
+    overflow: hidden;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box-2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Added border-radius for rounded corners */
+}
+.box-3 {
+    overflow: hidden;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box-3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Added border-radius for rounded corners */
+}
+.box-4 {
+    overflow: hidden;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box-4 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Added border-radius for rounded corners */
+}
+.box-5 {
+    overflow: hidden;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box-5 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Added border-radius for rounded corners */
+}
+.box-6 {
+    overflow: hidden;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box-6 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Added border-radius for rounded corners */
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>project gallery</h1>
+        <div class="container">
+            <div class="box-1 span2">
+                <img src="c:\Users\meenu\OneDrive\Desktop\ASSIGNMENT\Assign - 14\images\img-1.jpg" alt="">
+                <p>Marcella Marcella - An intriguing portrait capturing the essence of a contemplative moment.
+                    The interplay of light and shadow creates a captivating atmosphere, drawing the viewer into the
+                    subject's introspective gaze
+                </p>
+            </div>
+            <div class="box-2 span3">
+                <img src="c:\Users\meenu\OneDrive\Desktop\ASSIGNMENT\Assign - 14\images\img-2.jpg" alt="">
+                <p>
+                    Explore the tranquil beauty of nature captured in this breathtaking image.
+                    Let the serene landscapes and vibrant colors transport you to a world of peace and wonder.
+                </p>
+            </div>
+            <div class="box-3 span2">
+                <img src="c:\Users\meenu\OneDrive\Desktop\ASSIGNMENT\Assign - 14\images\img-1.jpg" alt="">
+                <p>
+                    Marcella Marcella - An intriguing portrait capturing the essence of a contemplative moment.
+                    The interplay of light and shadow creates a captivating atmosphere, drawing the viewer into the
+                    subject's introspective gaze.
+                </p>
+            </div>
+
+           
+            <div class="box-4 span2" >
+                <img src="c:\Users\meenu\OneDrive\Desktop\ASSIGNMENT\Assign - 14\images\img-1.jpg" alt="">
+                <p>
+                    Marcella Marcella - An intriguing portrait capturing the essence of a contemplative moment.
+                    The interplay of light and shadow creates a captivating atmosphere, drawing the viewer into the
+                    subject's introspective gaze.
+                </p>
+            </div>
+            <div class="box-5 span3">
+                <img src="c:\Users\meenu\OneDrive\Desktop\ASSIGNMENT\Assign - 14\images\img-1.jpg" alt="">
+                <p>
+                    Marcella Marcella - An intriguing portrait capturing the essence of a contemplative moment.
+                    The interplay of light and shadow creates a captivating atmosphere, drawing the viewer into the
+                    subject's introspective gaze.
+                </p>
+            </div>
+            <div class="box-6 span2">
+                <img src="c:\Users\meenu\OneDrive\Desktop\ASSIGNMENT\Assign - 14\images\img-2.jpg" alt="">
+                <p>
+                    Explore the tranquil beauty of nature captured in this breathtaking image.
+                    Let the serene landscapes and vibrant colors transport you to a world of peace and wonder.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
